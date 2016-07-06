@@ -27,8 +27,8 @@ BLENDING = true;
 /* if empty the text will be a random number */
 var TEXT;
 num = 0;
-TEXTArray = ["以前", "不懂", "珍惜", "现在", "知道", "不能" ,"没有", "你！" ,"永远", "疼你","爱你","照顾","你！","我的","李哲"];
-
+TEXTArray = ["浠ュ墠", "涓嶆噦", "鐝嶆儨", "鐜板湪", "鐭ラ亾", "涓嶈兘" ,"娌℃湁", "浣狅紒" ,"姘歌繙", "鐤间綘","鐖变綘","鐓ч【","浣狅紒","鎴戠殑","鏉庡摬"];
+//TEXTArray = ["god"];
 
 QUALITY_TO_FONT_SIZE = [10, 12, 40, 50, 100, 350];
 QUALITY_TO_SCALE = [20, 6, 4, 2, 0.9, 0.5];
@@ -93,7 +93,7 @@ window.onload = function () {
 
 		tctx.font = "bold " + QUALITY_TO_FONT_SIZE[QUALITY] + "px " + FANCY_FONT;
 
-		//tctx.textAlign='center';//文本水平对齐方式
+		//tctx.textAlign='center';//锟侥憋拷水平锟斤拷锟诫方式
 		//tctx.textBaseline='middle';
 
 		//tctx.strokeStyle = "black";
